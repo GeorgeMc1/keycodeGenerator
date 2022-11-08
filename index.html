@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Keycode Generator</title>
+</head>
+<body>
+    <div id="background">
+        <h1>Welcome to the Keycode Generator</h1>
+        <div id="keyboard">
+            <div id="col1">
+                <div class="keyboard-row" id="keyboard-row1">
+                    <div class="key">esc</div>
+                    <div class="f-row-sec">
+                        <div class="key">F1</div>
+                        <div class="key">F2</div>
+                        <div class="key">F3</div>
+                        <div class="key">F4</div>
+                    </div>
+                    <div class="f-row-sec">
+                        <div class="key">F5</div>
+                        <div class="key">F6</div>
+                        <div class="key">F7</div>
+                        <div class="key">F8</div>
+                    </div>
+                    <div class="f-row-sec">
+                        <div class="key">F9</div>
+                        <div class="key">F10</div>
+                        <div class="key">F11</div>
+                        <div class="key">F12</div>
+                    </div>
+                </div>
+                <div class="keyboard-row" id="keyboard-row2">
+                    <div class="key">`</div>
+                    <div class="key">1</div>
+                    <div class="key">2</div>
+                    <div class="key">3</div>
+                    <div class="key">4</div>
+                    <div class="key">5</div>
+                    <div class="key">6</div>
+                    <div class="key">7</div>
+                    <div class="key">8</div>
+                    <div class="key">9</div>
+                    <div class="key">0</div>
+                    <div class="key">-</div>
+                    <div class="key">=</div>
+                    <div id="back" class="key" role="Backspace">backspace</div>
+                </div>
+                <div class="keyboard-row" id="keyboard-row3">
+                    <div class="key" role="Tab">tab</div>
+                    <div class="key" role="Q">q</div>
+                    <div class="key" role="W">w</div>
+                    <div class="key" role="E">e</div>
+                    <div class="key" role="R">r</div>
+                    <div class="key" role="T">t</div>
+                    <div class="key" role="Y">y</div>
+                    <div class="key" role="U">u</div>
+                    <div class="key" role="I">i</div>
+                    <div class="key" role="O">o</div>
+                    <div class="key" role="P">p</div>
+                    <div class="key">[</div>
+                    <div class="key">]</div>
+                    <div id="enter-top" class="key" role="Enter">enter</div>
+                </div>
+                <div class="keyboard-row" id="keyboard-row4">
+                    <div class="key" role="CapsLock">caps</div>
+                    <div class="key" role="A">a</div>
+                    <div class="key" role="S">s</div>
+                    <div class="key" role="D">d</div>
+                    <div class="key" role="F">f</div>
+                    <div class="key" role="G">g</div>
+                    <div class="key" role="H">h</div>
+                    <div class="key" role="J">j</div>
+                    <div class="key" role="K">k</div>
+                    <div class="key" role="L">l</div>
+                    <div class="key">;</div>
+                    <div class="key">'</div>
+                    <div class="key">#</div>
+                    <div id="enter-bottom" class="key" role="Enter"></div>
+                </div>
+                <div class="keyboard-row" id="keyboard-row5">
+                    <div class="key" role="ShiftLeft">shift</div>
+                    <div class="key">\</div>
+                    <div class="key" role="Z">z</div>
+                    <div class="key" role="X">x</div>
+                    <div class="key" role="C">c</div>
+                    <div class="key" role="V">v</div>
+                    <div class="key" role="B">b</div>
+                    <div class="key" role="N">n</div>
+                    <div class="key" role="M">m</div>
+                    <div class="key">,</div>
+                    <div class="key">.</div>
+                    <div class="key">/</div>
+                    <div id="rshift" class="key" role="ShiftRight">rshift</div>
+                </div>
+                <div class="keyboard-row" id="keyboard-row6">
+                    <div id="lctrl" class="key" role="ControlLeft">ctrl</div>
+                    <div class="key" role="Meta">meta</div>
+                    <div class="key" role="AltLeft">alt</div>
+                    <div id="space" class="key" role="Space">space</div>
+                    <div class="key" role="AltGraph">ralt</div>
+                    <div class="key" role="ContextMenu">context</div>
+                    <div class="key" role="ControlRight">rctrl</div>
+                </div>
+            </div>
+            <div id="col2">
+                <div class="keyboard-row-small" id="keyboard-row7">
+                    <div class="key">prtsc</div>
+                    <div class="key" role="ScrollLock">scrlk</div>
+                    <div class="key" role="Pause">pause</div>
+                </div>
+                <div class="keyboard-row-small" id="keyboard-row8">
+                    <div class="key" role="Insert">ins</div>
+                    <div class="key" role="Home">home</div>
+                    <div class="key" role="PageUp">pg up</div>
+                </div>
+                <div class="keyboard-row-small" id="keyboard-row9">
+                    <div class="key" role="Delete">del</div>
+                    <div class="key" role="End">end</div>
+                    <div class="key" role="PageDown">pg dn</div>
+                </div>
+                <div class="keyboard-row-small" id="keyboard-row10">
+                    <div class="key blank"></div>
+                    <div class="key blank"></div>
+                    <div class="key blank"></div>
+                </div>
+                <div class="keyboard-row-small" id="keyboard-row11">
+                    <div class="key blank"></div>
+                    <div class="key" role="ArrowUp">⇧</div>
+                    <div class="key blank"></div>
+                </div>
+                <div class="keyboard-row-small" id="keyboard-row12">
+                    <div class="key" role="ArrowLeft">⇦</div>
+                    <div class="key" role="ArrowDown">⇩</div>
+                    <div class="key" role="ArrowRight">⇨</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section">
+                <h2>.code</h2>
+                <p id=".code"></p>
+            </div>
+            <div class="section">
+                <h2>.key</h2>
+                <p id=".key"></p>
+            </div>
+            <div class="section">
+                <h2>.which</h2>
+                <p id=".which"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
